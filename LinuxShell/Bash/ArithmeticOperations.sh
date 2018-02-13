@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## Problem : https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem
+
+read exp
+printf %.3f $(echo "$exp" | bc -l)
